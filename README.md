@@ -24,6 +24,8 @@ git clone https://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@github.com/lestewartt
 This portion of the project derives the parameters that will be used to build a model of how UDCA affects viral transmission. 
 This model has three components: expression model, viral entry model, and the viral exposure model 
 
+Files can be accessed from the 'Test_Data/MATLAB_Data' folder
+
 To run this script, please assign data files to the variables corresponding to their model use:
 
 Expression model 
@@ -72,6 +74,7 @@ This script accepts the 180 simulations from the provided hospital simulation da
 To run this script, please update the 'pt_folder' and 'hcw_folder' file paths (lines 41 & 43) to the appropriate directory where this data is stored.
 This script can be run successfully as long as there is one pair of pt and hcw data input
 
+Files can be accessed from the 'Simulation_Test_Data' folder
 
 File path to patient simulation data folder
 <!-- start:code block -->
@@ -86,8 +89,10 @@ hcw_folder = 'C:/Users/2915700s/OneDrive/UoG Masters/Project_Start/hcw_sim_data'
 
 This script generates summary information for the data produced for each simulation in the hospital infection simulation script 
 To run this script, please update the 'main_directory' variable with the path to the 'hospital_infection_sim' folder
-Note, this script was designed to process all 180 simulation results. If running using a subset of hospital data, code from line 278 onwards should be commented out 
+Note, this script was designed to process all 180 simulation results. If running using only a single subset of hospital data, code from line 278 onwards should be commented out.
+Run using all 3 simulations provided to simulate the effect with all 180 simulations 
 
+Files can be accesed from the 'Processing_UDCA_Model' folder
 
 <!-- start:code block -->
 main_directory = 'C:/Users/2915700s/OneDrive/UoG Masters/Project_Start/hospital_infection_sim'
