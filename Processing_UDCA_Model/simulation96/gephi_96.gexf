@@ -1,0 +1,4840 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-08-17">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="InfectionProb" type="string" />
+      <attribute id="1" title="WardNumber" type="double" />
+      <attribute id="2" title="Date" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Patient_3945" label="Patient_3945" />
+      <node id="Patient_11510" label="Patient_11510" />
+      <node id="Patient_23478" label="Patient_23478">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2020-09-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_22122" label="Patient_22122">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34869" label="Patient_34869" />
+      <node id="Patient_39356" label="Patient_39356">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2020-12-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_36128" label="Patient_36128">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-12-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58779" label="Patient_58779">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2021-04-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3264" label="HCW_3264">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2621" label="HCW_2621">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61796" label="Patient_61796">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2021-05-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_50538" label="Patient_50538">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_56738" label="Patient_56738">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-05-12 00:00:00" />
+          <attvalue for="1" value="30.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_56954" label="Patient_56954">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-05-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_57121" label="Patient_57121">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65264" label="Patient_65264">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2021-06-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65473" label="Patient_65473">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3601" label="HCW_3601">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70503" label="Patient_70503">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2021-07-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70334" label="Patient_70334">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_76810" label="Patient_76810">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2021-08-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_77021" label="Patient_77021">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1422" label="HCW_1422">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_382" label="HCW_382">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80602" label="Patient_80602" />
+      <node id="Patient_84855" label="Patient_84855" />
+      <node id="Patient_4630" label="Patient_4630">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="2020-04-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_149" label="HCW_149">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_20293" label="Patient_20293" />
+      <node id="Patient_24877" label="Patient_24877" />
+      <node id="Patient_29551" label="Patient_29551" />
+      <node id="Patient_39659" label="Patient_39659" />
+      <node id="Patient_60433" label="Patient_60433" />
+      <node id="Patient_68722" label="Patient_68722">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="2021-06-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7424" label="HCW_7424">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65808" label="Patient_65808" />
+      <node id="Patient_79106" label="Patient_79106" />
+      <node id="Patient_5018" label="Patient_5018" />
+      <node id="Patient_13703" label="Patient_13703" />
+      <node id="Patient_26562" label="Patient_26562">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="2020-09-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7795" label="HCW_7795">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33845" label="Patient_33845" />
+      <node id="Patient_41716" label="Patient_41716">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="2021-01-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_41666" label="Patient_41666">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-01-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5971" label="HCW_5971">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1078" label="HCW_1078">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4071" label="HCW_4071">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4417" label="HCW_4417">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-13 00:00:00" />
+          <attvalue for="1" value="19.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_34054" label="Patient_34054">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-20 00:00:00" />
+          <attvalue for="1" value="13.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_40872" label="Patient_40872">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-23 00:00:00" />
+          <attvalue for="1" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_2939" label="HCW_2939">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_44282" label="Patient_44282">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-01-23 00:00:00" />
+          <attvalue for="1" value="13.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_45408" label="Patient_45408">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-01-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5279" label="HCW_5279">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-01-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2463" label="HCW_2463">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_43266" label="Patient_43266">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3391" label="HCW_3391">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_57066" label="Patient_57066" />
+      <node id="Patient_62354" label="Patient_62354">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="2021-05-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61405" label="Patient_61405">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-17 00:00:00" />
+          <attvalue for="1" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_62754" label="Patient_62754">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-05-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2933" label="HCW_2933">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3074" label="HCW_3074">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71593" label="Patient_71593" />
+      <node id="Patient_81669" label="Patient_81669">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="2021-09-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4871" label="HCW_4871">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7953" label="HCW_7953">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4724" label="HCW_4724">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86027" label="Patient_86027" />
+      <node id="Patient_10104" label="Patient_10104" />
+      <node id="Patient_17314" label="Patient_17314">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="2020-07-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_15515" label="Patient_15515">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-07-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_16307" label="Patient_16307">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-07-24 00:00:00" />
+          <attvalue for="1" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_15963" label="Patient_15963">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-07-28 00:00:00" />
+          <attvalue for="1" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_522" label="HCW_522">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-07-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26544" label="Patient_26544">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="2020-09-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_25367" label="Patient_25367">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-26 00:00:00" />
+          <attvalue for="1" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_7218" label="HCW_7218">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26775" label="Patient_26775">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-26 00:00:00" />
+          <attvalue for="1" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_27217" label="Patient_27217">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2555" label="HCW_2555">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5986" label="HCW_5986">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35100" label="Patient_35100" />
+      <node id="Patient_42434" label="Patient_42434" />
+      <node id="Patient_58426" label="Patient_58426" />
+      <node id="Patient_65479" label="Patient_65479" />
+      <node id="Patient_72497" label="Patient_72497">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="2021-07-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_72149" label="Patient_72149">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-23 00:00:00" />
+          <attvalue for="1" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_67060" label="Patient_67060">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-07-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1648" label="HCW_1648">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86214" label="Patient_86214" />
+      <node id="Patient_7647" label="Patient_7647" />
+      <node id="Patient_10550" label="Patient_10550" />
+      <node id="Patient_38727" label="Patient_38727">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="2020-12-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30604" label="Patient_30604">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-14 00:00:00" />
+          <attvalue for="1" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_36213" label="Patient_36213">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-17 00:00:00" />
+          <attvalue for="1" value="33.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_38669" label="Patient_38669">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5540" label="HCW_5540">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35488" label="Patient_35488">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-12-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_54358" label="Patient_54358" />
+      <node id="Patient_67421" label="Patient_67421" />
+      <node id="Patient_82201" label="Patient_82201">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="2021-09-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4008" label="HCW_4008">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7796" label="HCW_7796">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_11828" label="Patient_11828">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-06-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_11403" label="Patient_11403">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29446" label="Patient_29446" />
+      <node id="Patient_32561" label="Patient_32561" />
+      <node id="Patient_44875" label="Patient_44875">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="2021-01-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3225" label="HCW_3225">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-23 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_44358" label="Patient_44358">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_44914" label="Patient_44914">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4712" label="HCW_4712">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_48953" label="Patient_48953" />
+      <node id="Patient_66072" label="Patient_66072" />
+      <node id="Patient_75476" label="Patient_75476">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="2021-08-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74159" label="Patient_74159">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_87068" label="Patient_87068">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2021-10-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_85659" label="Patient_85659">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5331" label="Patient_5331" />
+      <node id="Patient_10653" label="Patient_10653">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2020-05-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_10533" label="Patient_10533">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-06-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_10861" label="Patient_10861">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5907" label="HCW_5907">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7537" label="HCW_7537">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_15402" label="Patient_15402">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2020-07-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14711" label="Patient_14711">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-07-08 00:00:00" />
+          <attvalue for="1" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_5341" label="HCW_5341">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-07-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5662" label="HCW_5662">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6901" label="HCW_6901">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6044" label="HCW_6044">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_19422" label="Patient_19422">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="2020-08-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_19005" label="Patient_19005">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-08-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_28887" label="Patient_28887">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2020-10-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_28699" label="Patient_28699">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-10-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31525" label="Patient_31525">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2020-10-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_28150" label="Patient_28150">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-31 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_30967" label="Patient_30967">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-11-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7493" label="HCW_7493">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31289" label="Patient_31289">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-10-31 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31493" label="Patient_31493">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_87" label="HCW_87">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_36901" label="Patient_36901" />
+      <node id="Patient_41338" label="Patient_41338" />
+      <node id="Patient_51533" label="Patient_51533" />
+      <node id="Patient_55396" label="Patient_55396">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2021-03-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_48493" label="Patient_48493">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-04-01 00:00:00" />
+          <attvalue for="1" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_4313" label="HCW_4313">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-04-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4833" label="HCW_4833">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-04-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58363" label="Patient_58363" />
+      <node id="Patient_63659" label="Patient_63659" />
+      <node id="Patient_66483" label="Patient_66483">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2021-06-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5179" label="HCW_5179">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_77143" label="Patient_77143">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="2021-08-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73973" label="Patient_73973">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-08-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_75780" label="Patient_75780">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1395" label="HCW_1395">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7357" label="HCW_7357">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7737" label="HCW_7737">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3999" label="Patient_3999" />
+      <node id="Patient_30508" label="Patient_30508" />
+      <node id="Patient_42203" label="Patient_42203" />
+      <node id="Patient_46296" label="Patient_46296" />
+      <node id="Patient_53107" label="Patient_53107" />
+      <node id="Patient_68396" label="Patient_68396" />
+      <node id="Patient_74714" label="Patient_74714">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="2021-08-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65556" label="Patient_65556">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74680" label="Patient_74680">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-08 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_69554" label="Patient_69554">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-10 00:00:00" />
+          <attvalue for="1" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_3613" label="HCW_3613">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-12 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_76558" label="Patient_76558">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1926" label="HCW_1926">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_205" label="HCW_205">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_892" label="HCW_892">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_75096" label="Patient_75096">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7600" label="HCW_7600">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80763" label="Patient_80763" />
+      <node id="Patient_84214" label="Patient_84214" />
+      <node id="Patient_5467" label="Patient_5467">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="2020-04-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4720" label="Patient_4720">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-04-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5044" label="Patient_5044">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5406" label="Patient_5406">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6763" label="HCW_6763">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3167" label="HCW_3167">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4980" label="HCW_4980">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7378" label="HCW_7378">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_18582" label="Patient_18582" />
+      <node id="Patient_20741" label="Patient_20741" />
+      <node id="Patient_22889" label="Patient_22889">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="2020-08-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_22020" label="Patient_22020">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-08-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_22883" label="Patient_22883">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-01 00:00:00" />
+          <attvalue for="1" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_22508" label="Patient_22508">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-09-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_37864" label="Patient_37864" />
+      <node id="Patient_58852" label="Patient_58852">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="2021-04-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58873" label="Patient_58873">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62004" label="Patient_62004">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="2021-05-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58076" label="Patient_58076">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61356" label="Patient_61356">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-16 00:00:00" />
+          <attvalue for="1" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_58578" label="Patient_58578">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2021-05-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3977" label="HCW_3977">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6375" label="HCW_6375">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-05-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79270" label="Patient_79270" />
+      <node id="Patient_7289" label="Patient_7289">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2020-04-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1175" label="HCW_1175">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4087" label="HCW_4087">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_11772" label="Patient_11772" />
+      <node id="Patient_15576" label="Patient_15576" />
+      <node id="Patient_21757" label="Patient_21757" />
+      <node id="Patient_33753" label="Patient_33753">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2020-11-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33621" label="Patient_33621">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-11-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_37333" label="Patient_37333" />
+      <node id="Patient_42182" label="Patient_42182" />
+      <node id="Patient_64112" label="Patient_64112" />
+      <node id="Patient_66273" label="Patient_66273">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2021-06-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66299" label="Patient_66299">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6975" label="HCW_6975">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71829" label="Patient_71829">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2021-07-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71113" label="Patient_71113">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-07-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_77280" label="Patient_77280">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2021-08-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74759" label="Patient_74759">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-24 00:00:00" />
+          <attvalue for="1" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_75533" label="Patient_75533">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_76490" label="Patient_76490">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-08-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80962" label="Patient_80962" />
+      <node id="Patient_86515" label="Patient_86515">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_85520" label="Patient_85520">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-10-25 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_84961" label="Patient_84961">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-10-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7400" label="HCW_7400">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3757" label="Patient_3757">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2020-03-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_2288" label="Patient_2288">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-03-30 00:00:00" />
+          <attvalue for="1" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_3386" label="HCW_3386">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5147" label="HCW_5147">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7815" label="Patient_7815">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2020-05-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_6294" label="Patient_6294">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-05-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29263" label="Patient_29263">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2020-10-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29064" label="Patient_29064">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-10-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33344" label="Patient_33344">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2020-11-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29687" label="Patient_29687">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-11-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_41583" label="Patient_41583" />
+      <node id="Patient_61343" label="Patient_61343" />
+      <node id="Patient_63820" label="Patient_63820">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2021-05-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7001" label="HCW_7001">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_78186" label="Patient_78186" />
+      <node id="Patient_86964" label="Patient_86964">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="2021-10-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86812" label="Patient_86812">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-10-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2775" label="HCW_2775">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_6805" label="Patient_6805" />
+      <node id="Patient_30489" label="Patient_30489">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="2020-10-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1930" label="HCW_1930">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_437" label="HCW_437">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33873" label="Patient_33873" />
+      <node id="Patient_41990" label="Patient_41990" />
+      <node id="Patient_59286" label="Patient_59286">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="2021-04-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3182" label="HCW_3182">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7342" label="HCW_7342">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70532" label="Patient_70532">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="2021-07-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62930" label="Patient_62930">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3448" label="HCW_3448">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79179" label="Patient_79179">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="11.0" />
+          <attvalue for="2" value="2021-09-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6625" label="HCW_6625">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_87278" label="Patient_87278" />
+      <node id="Patient_4849" label="Patient_4849">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="2020-04-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_152" label="Patient_152">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6037" label="HCW_6037">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6347" label="HCW_6347">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34360" label="Patient_34360" />
+      <node id="Patient_38929" label="Patient_38929">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="2020-12-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_38536" label="Patient_38536">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-18 00:00:00" />
+          <attvalue for="1" value="12.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_28745" label="Patient_28745">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-12-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32621" label="Patient_32621">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-12-21 00:00:00" />
+          <attvalue for="1" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_36778" label="Patient_36778">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-12-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_42991" label="Patient_42991">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-01-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_40830" label="Patient_40830">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-01-12 00:00:00" />
+          <attvalue for="1" value="12.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_6271" label="HCW_6271">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-01-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_42668" label="Patient_42668">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_55662" label="Patient_55662">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="2021-03-31 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1003" label="HCW_1003">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_260" label="HCW_260">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7084" label="HCW_7084">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_759" label="HCW_759">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66662" label="Patient_66662">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="12.0" />
+          <attvalue for="2" value="2021-06-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3373" label="HCW_3373">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_68604" label="Patient_68604">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-06-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62155" label="Patient_62155">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-07-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_64837" label="Patient_64837">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79568" label="Patient_79568" />
+      <node id="Patient_85342" label="Patient_85342" />
+      <node id="Patient_5001" label="Patient_5001" />
+      <node id="Patient_10882" label="Patient_10882" />
+      <node id="Patient_36248" label="Patient_36248" />
+      <node id="Patient_49080" label="Patient_49080">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="2021-02-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4658" label="HCW_4658">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-02-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_57827" label="Patient_57827" />
+      <node id="Patient_62777" label="Patient_62777">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="2021-05-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1405" label="HCW_1405">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71176" label="Patient_71176" />
+      <node id="Patient_76809" label="Patient_76809">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="2021-08-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3930" label="HCW_3930">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80374" label="Patient_80374" />
+      <node id="Patient_86347" label="Patient_86347">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="13.0" />
+          <attvalue for="2" value="2021-10-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_85678" label="Patient_85678">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-10-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4083" label="HCW_4083">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6490" label="HCW_6490">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3946" label="Patient_3946">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="2020-04-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_2272" label="Patient_2272">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_8641" label="Patient_8641">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="2020-05-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_8384" label="Patient_8384">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-05-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33941" label="Patient_33941">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="2020-11-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31544" label="Patient_31544">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-17 00:00:00" />
+          <attvalue for="1" value="14.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_31629" label="Patient_31629">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-11-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34009" label="Patient_34009">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-14 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_26055" label="Patient_26055">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-17 00:00:00" />
+          <attvalue for="1" value="20.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_33736" label="Patient_33736">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33587" label="Patient_33587">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34154" label="Patient_34154">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34143" label="Patient_34143">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3460" label="HCW_3460">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3939" label="HCW_3939">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1682" label="HCW_1682">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_42483" label="Patient_42483" />
+      <node id="Patient_51976" label="Patient_51976" />
+      <node id="Patient_65893" label="Patient_65893" />
+      <node id="Patient_75041" label="Patient_75041" />
+      <node id="Patient_85166" label="Patient_85166">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="14.0" />
+          <attvalue for="2" value="2021-10-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84500" label="Patient_84500">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-10-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84790" label="Patient_84790">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7893" label="HCW_7893">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4583" label="Patient_4583" />
+      <node id="Patient_70533" label="Patient_70533" />
+      <node id="Patient_73622" label="Patient_73622" />
+      <node id="Patient_78290" label="Patient_78290">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="15.0" />
+          <attvalue for="2" value="2021-08-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7584" label="HCW_7584">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_87220" label="Patient_87220" />
+      <node id="Patient_5051" label="Patient_5051" />
+      <node id="Patient_23323" label="Patient_23323" />
+      <node id="Patient_29899" label="Patient_29899">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="2020-10-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3249" label="HCW_3249">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_39338" label="Patient_39338">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="2020-12-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4123" label="HCW_4123">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66073" label="Patient_66073">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="16.0" />
+          <attvalue for="2" value="2021-06-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66034" label="Patient_66034">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-06-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71493" label="Patient_71493" />
+      <node id="Patient_76082" label="Patient_76082" />
+      <node id="Patient_85933" label="Patient_85933" />
+      <node id="Patient_6238" label="Patient_6238">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2020-04-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7038" label="Patient_7038">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-05-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_375" label="HCW_375">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3318" label="HCW_3318">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14336" label="Patient_14336">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2020-06-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_778" label="HCW_778">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3783" label="HCW_3783">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_24781" label="Patient_24781">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32723" label="Patient_32723">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2020-11-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31014" label="Patient_31014">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-11 00:00:00" />
+          <attvalue for="1" value="17.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_30597" label="Patient_30597">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-11-14 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_34276" label="Patient_34276">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-11-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32962" label="Patient_32962">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-11-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_41556" label="Patient_41556" />
+      <node id="Patient_50516" label="Patient_50516">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2021-02-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4163" label="HCW_4163">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-02-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_54055" label="Patient_54055">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-03-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_53789" label="Patient_53789">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-03-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_67285" label="Patient_67285" />
+      <node id="Patient_74864" label="Patient_74864">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2021-08-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7384" label="HCW_7384">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74987" label="Patient_74987" />
+      <node id="Patient_6611" label="Patient_6611">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="2020-04-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2816" label="HCW_2816">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5376" label="HCW_5376">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5017" label="HCW_5017">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4059" label="HCW_4059">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_678" label="HCW_678">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4497" label="HCW_4497">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3933" label="HCW_3933">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7778" label="HCW_7778">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_812" label="HCW_812">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14460" label="Patient_14460" />
+      <node id="Patient_33029" label="Patient_33029" />
+      <node id="Patient_42162" label="Patient_42162" />
+      <node id="Patient_55216" label="Patient_55216">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="2021-03-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1719" label="HCW_1719">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-03-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3728" label="HCW_3728">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62027" label="Patient_62027">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="2021-05-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1124" label="HCW_1124">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_68917" label="Patient_68917">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="18.0" />
+          <attvalue for="2" value="2021-06-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_68807" label="Patient_68807">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-06-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4372" label="HCW_4372">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84671" label="Patient_84671" />
+      <node id="Patient_6806" label="Patient_6806" />
+      <node id="Patient_34868" label="Patient_34868" />
+      <node id="Patient_41949" label="Patient_41949">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="2021-01-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35986" label="Patient_35986">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_54638" label="Patient_54638" />
+      <node id="Patient_64062" label="Patient_64062" />
+      <node id="Patient_72021" label="Patient_72021">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="19.0" />
+          <attvalue for="2" value="2021-07-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1238" label="HCW_1238">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_82640" label="Patient_82640" />
+      <node id="Patient_5573" label="Patient_5573">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2020-04-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4995" label="Patient_4995">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_11248" label="Patient_11248" />
+      <node id="Patient_20708" label="Patient_20708" />
+      <node id="Patient_23983" label="Patient_23983" />
+      <node id="Patient_32281" label="Patient_32281" />
+      <node id="Patient_36949" label="Patient_36949">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2020-12-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_36920" label="Patient_36920">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1223" label="HCW_1223">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_46756" label="Patient_46756">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2021-02-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_45387" label="Patient_45387">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-02-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_46066" label="Patient_46066">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-02-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5155" label="HCW_5155">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-02-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_53250" label="Patient_53250" />
+      <node id="Patient_61229" label="Patient_61229">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2021-05-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61411" label="Patient_61411">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3019" label="HCW_3019">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70213" label="Patient_70213" />
+      <node id="Patient_72583" label="Patient_72583" />
+      <node id="Patient_79239" label="Patient_79239">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2021-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4745" label="HCW_4745">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86091" label="Patient_86091">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-10-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84758" label="Patient_84758">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_85157" label="Patient_85157">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86250" label="Patient_86250">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5964" label="Patient_5964" />
+      <node id="Patient_25373" label="Patient_25373">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-09-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_24986" label="Patient_24986">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33421" label="Patient_33421" />
+      <node id="Patient_59005" label="Patient_59005">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="2021-04-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58886" label="Patient_58886">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_1207" label="HCW_1207">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_329" label="HCW_329">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_36" label="HCW_36">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65939" label="Patient_65939" />
+      <node id="Patient_70241" label="Patient_70241">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="2021-07-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_69766" label="Patient_69766">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-10 00:00:00" />
+          <attvalue for="1" value="28.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_70569" label="Patient_70569">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2273" label="HCW_2273">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3983" label="HCW_3983">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73068" label="Patient_73068" />
+      <node id="Patient_3879" label="Patient_3879" />
+      <node id="Patient_14006" label="Patient_14006">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="2020-06-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3956" label="HCW_3956">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-28 00:00:00" />
+          <attvalue for="1" value="15.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_12410" label="Patient_12410">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26651" label="Patient_26651">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="2020-09-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_24795" label="Patient_24795">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-26 00:00:00" />
+          <attvalue for="1" value="22.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_7747" label="HCW_7747">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_841" label="HCW_841">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_37332" label="Patient_37332">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="2020-12-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_30" label="HCW_30">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1430" label="HCW_1430">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_55786" label="Patient_55786" />
+      <node id="Patient_59870" label="Patient_59870" />
+      <node id="Patient_68944" label="Patient_68944" />
+      <node id="Patient_74293" label="Patient_74293">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="2021-08-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3086" label="HCW_3086">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_411" label="HCW_411">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7547" label="HCW_7547">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79428" label="Patient_79428">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="2021-09-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_77637" label="Patient_77637">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-09-09 00:00:00" />
+          <attvalue for="1" value="22.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_79475" label="Patient_79475">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2021-09-11 00:00:00" />
+          <attvalue for="1" value="22.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_79712" label="Patient_79712">
+        <attvalues>
+          <attvalue for="0" value="0.12202393599999999" />
+          <attvalue for="2" value="2021-09-12 00:00:00" />
+          <attvalue for="1" value="22.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_288" label="HCW_288">
+        <attvalues>
+          <attvalue for="0" value="0.12202393599999999" />
+          <attvalue for="2" value="2021-09-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84497" label="Patient_84497" />
+      <node id="Patient_5099" label="Patient_5099">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-04-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4785" label="Patient_4785">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4893" label="Patient_4893">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_20303" label="Patient_20303" />
+      <node id="Patient_38490" label="Patient_38490" />
+      <node id="Patient_41287" label="Patient_41287">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="23.0" />
+          <attvalue for="2" value="2020-12-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_40608" label="Patient_40608">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_40754" label="Patient_40754">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-01-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1763" label="HCW_1763">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73384" label="Patient_73384">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="23.0" />
+          <attvalue for="2" value="2021-07-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_72992" label="Patient_72992">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-31 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_2731" label="HCW_2731">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2997" label="HCW_2997">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3736" label="HCW_3736">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5182" label="HCW_5182">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_78912" label="Patient_78912">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="23.0" />
+          <attvalue for="2" value="2021-09-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_78757" label="Patient_78757">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3429" label="HCW_3429">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6785" label="HCW_6785">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5572" label="Patient_5572" />
+      <node id="Patient_37149" label="Patient_37149" />
+      <node id="Patient_54626" label="Patient_54626" />
+      <node id="Patient_59031" label="Patient_59031" />
+      <node id="Patient_71742" label="Patient_71742">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="2021-07-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3919" label="HCW_3919">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5935" label="HCW_5935">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7157" label="HCW_7157">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2892" label="HCW_2892">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_81427" label="Patient_81427">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="24.0" />
+          <attvalue for="2" value="2021-09-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74507" label="Patient_74507">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-09-21 00:00:00" />
+          <attvalue for="1" value="24.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_1628" label="HCW_1628">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-09-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_76638" label="Patient_76638">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_15" label="HCW_15">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5283" label="Patient_5283" />
+      <node id="Patient_17204" label="Patient_17204" />
+      <node id="Patient_24927" label="Patient_24927">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="2020-09-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_25600" label="Patient_25600">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5248" label="HCW_5248">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_824" label="HCW_824">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32917" label="Patient_32917">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="2020-11-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_33017" label="Patient_33017">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58600" label="Patient_58600" />
+      <node id="Patient_70846" label="Patient_70846">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5967" label="HCW_5967">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74097" label="Patient_74097" />
+      <node id="Patient_81570" label="Patient_81570">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="2021-09-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4922" label="HCW_4922">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84583" label="Patient_84583">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="2021-10-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79837" label="Patient_79837">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_83689" label="Patient_83689">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-10-13 00:00:00" />
+          <attvalue for="1" value="25.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_1204" label="HCW_1204">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-10-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_84484" label="Patient_84484">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-10-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6147" label="HCW_6147">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5550" label="Patient_5550" />
+      <node id="Patient_20136" label="Patient_20136">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="2020-08-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1523" label="HCW_1523">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-08-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30012" label="Patient_30012" />
+      <node id="Patient_32689" label="Patient_32689" />
+      <node id="Patient_35443" label="Patient_35443">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-11-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32926" label="Patient_32926">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34437" label="Patient_34437">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35316" label="Patient_35316">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_39600" label="Patient_39600">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="2020-12-31 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_839" label="HCW_839">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_59158" label="Patient_59158">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4295" label="HCW_4295">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62921" label="Patient_62921">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-05-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_57299" label="Patient_57299">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-05-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61647" label="Patient_61647">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_67893" label="Patient_67893">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="26.0" />
+          <attvalue for="2" value="2021-06-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_63934" label="Patient_63934">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_67895" label="Patient_67895">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-06-22 00:00:00" />
+          <attvalue for="1" value="14.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_67180" label="Patient_67180">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-06-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71406" label="Patient_71406">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-07-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70455" label="Patient_70455">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4608" label="Patient_4608" />
+      <node id="Patient_25394" label="Patient_25394">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="2020-09-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7620" label="HCW_7620">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6954" label="HCW_6954">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31388" label="Patient_31388" />
+      <node id="Patient_41850" label="Patient_41850">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="2021-01-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4173" label="HCW_4173">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_56259" label="Patient_56259">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="27.0" />
+          <attvalue for="2" value="2021-04-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_49206" label="Patient_49206">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-04-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5513" label="HCW_5513">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3437" label="HCW_3437">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_157" label="HCW_157">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7495" label="HCW_7495">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_76988" label="Patient_76988" />
+      <node id="Patient_4319" label="Patient_4319">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="2020-04-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3565" label="Patient_3565">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_10488" label="Patient_10488" />
+      <node id="Patient_18687" label="Patient_18687" />
+      <node id="Patient_24368" label="Patient_24368">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="2020-09-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_23541" label="Patient_23541">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_24193" label="Patient_24193">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-08 00:00:00" />
+          <attvalue for="1" value="28.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_5345" label="HCW_5345">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_498" label="HCW_498">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-09-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31760" label="Patient_31760">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="2020-11-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30302" label="Patient_30302">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_34113" label="Patient_34113" />
+      <node id="Patient_53810" label="Patient_53810" />
+      <node id="Patient_59006" label="Patient_59006">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="2021-04-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_59118" label="Patient_59118">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66249" label="Patient_66249" />
+      <node id="Patient_74736" label="Patient_74736">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="2021-08-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_72190" label="Patient_72190">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79240" label="Patient_79240">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="28.0" />
+          <attvalue for="2" value="2021-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66148" label="Patient_66148">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2835" label="HCW_2835">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5920" label="HCW_5920">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_82440" label="Patient_82440" />
+      <node id="Patient_6470" label="Patient_6470">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="29.0" />
+          <attvalue for="2" value="2020-04-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_1605" label="Patient_1605">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-24 00:00:00" />
+          <attvalue for="1" value="29.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_5321" label="Patient_5321">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7307" label="HCW_7307">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4661" label="Patient_4661">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-04-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_13389" label="Patient_13389">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="29.0" />
+          <attvalue for="2" value="2020-06-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1669" label="HCW_1669">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3724" label="HCW_3724">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4951" label="HCW_4951">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-06-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_18967" label="Patient_18967" />
+      <node id="Patient_39963" label="Patient_39963" />
+      <node id="Patient_71614" label="Patient_71614" />
+      <node id="Patient_78364" label="Patient_78364" />
+      <node id="Patient_82749" label="Patient_82749" />
+      <node id="Patient_86282" label="Patient_86282" />
+      <node id="Patient_4809" label="Patient_4809">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="2020-04-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3908" label="Patient_3908">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-04-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_4792" label="Patient_4792">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-04-11 00:00:00" />
+          <attvalue for="1" value="30.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_5942" label="HCW_5942">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-04-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1143" label="HCW_1143">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_9890" label="Patient_9890">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2020-05-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_9270" label="Patient_9270">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-05-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_9988" label="Patient_9988">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14878" label="Patient_14878" />
+      <node id="Patient_24878" label="Patient_24878" />
+      <node id="Patient_44445" label="Patient_44445" />
+      <node id="Patient_62892" label="Patient_62892">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="2021-05-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62752" label="Patient_62752">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-05-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_316" label="HCW_316">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70723" label="Patient_70723">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="30.0" />
+          <attvalue for="2" value="2021-07-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_60063" label="Patient_60063">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-11 00:00:00" />
+          <attvalue for="1" value="30.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_1438" label="HCW_1438">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70646" label="Patient_70646">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-07-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3142" label="HCW_3142">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_560" label="HCW_560">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7419" label="HCW_7419">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1240" label="HCW_1240">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86278" label="Patient_86278" />
+      <node id="Patient_3371" label="Patient_3371" />
+      <node id="Patient_14366" label="Patient_14366" />
+      <node id="Patient_24054" label="Patient_24054">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="2020-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14453" label="Patient_14453">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-08 00:00:00" />
+          <attvalue for="1" value="31.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_1771" label="HCW_1771">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_84" label="HCW_84">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-09-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2848" label="HCW_2848">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7044" label="HCW_7044">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_835" label="HCW_835">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_25375" label="Patient_25375" />
+      <node id="Patient_30906" label="Patient_30906">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="2020-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3678" label="HCW_3678">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7099" label="HCW_7099">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_38006" label="Patient_38006">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="2020-12-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29249" label="Patient_29249">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2400" label="HCW_2400">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4444" label="HCW_4444">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_40579" label="Patient_40579">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="2020-12-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2046" label="HCW_2046">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3388" label="HCW_3388">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_60789" label="Patient_60789" />
+      <node id="Patient_65576" label="Patient_65576">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="31.0" />
+          <attvalue for="2" value="2021-06-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_60303" label="Patient_60303">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65503" label="Patient_65503">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3223" label="HCW_3223">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73686" label="Patient_73686" />
+      <node id="Patient_5965" label="Patient_5965" />
+      <node id="Patient_18368" label="Patient_18368" />
+      <node id="Patient_28612" label="Patient_28612" />
+      <node id="Patient_40267" label="Patient_40267" />
+      <node id="Patient_75260" label="Patient_75260">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="32.0" />
+          <attvalue for="2" value="2021-08-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70475" label="Patient_70475">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_70955" label="Patient_70955">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-08-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_75265" label="Patient_75265">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-13 00:00:00" />
+          <attvalue for="1" value="-1.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_75875" label="Patient_75875">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1173" label="HCW_1173">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_76" label="HCW_76">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_6471" label="Patient_6471">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-04-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_6457" label="Patient_6457">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_6729" label="Patient_6729">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-27 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_12224" label="Patient_12224" />
+      <node id="Patient_15033" label="Patient_15033">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="20.0" />
+          <attvalue for="2" value="2020-07-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14140" label="Patient_14140">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-09 00:00:00" />
+          <attvalue for="1" value="20.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_12330" label="Patient_12330">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1858" label="HCW_1858">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31133" label="Patient_31133">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2020-10-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29850" label="Patient_29850">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-10-28 00:00:00" />
+          <attvalue for="1" value="33.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_28449" label="Patient_28449">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-10-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31051" label="Patient_31051">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2020-10-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_31131" label="Patient_31131">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-10-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_37475" label="Patient_37475" />
+      <node id="Patient_43756" label="Patient_43756">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="33.0" />
+          <attvalue for="2" value="2021-01-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_43561" label="Patient_43561">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-01-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_52790" label="Patient_52790" />
+      <node id="Patient_73831" label="Patient_73831" />
+      <node id="Patient_78227" label="Patient_78227">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-08-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_77820" label="Patient_77820">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_3011" label="Patient_3011">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2020-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4186" label="HCW_4186">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1268" label="HCW_1268">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5571" label="HCW_5571">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2036" label="HCW_2036">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-04-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_9972" label="Patient_9972" />
+      <node id="Patient_13749" label="Patient_13749" />
+      <node id="Patient_21216" label="Patient_21216">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2020-08-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_21418" label="Patient_21418">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-08-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2153" label="HCW_2153">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-08-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26629" label="Patient_26629">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="2020-09-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32622" label="Patient_32622">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2020-11-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32739" label="Patient_32739">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-11-06 00:00:00" />
+          <attvalue for="1" value="34.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_2493" label="HCW_2493">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-11-09 00:00:00" />
+          <attvalue for="1" value="34.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_24220" label="Patient_24220">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-11-14 00:00:00" />
+          <attvalue for="1" value="28.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_30921" label="Patient_30921">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-11-15 00:00:00" />
+          <attvalue for="1" value="28.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_22070" label="Patient_22070">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-11-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_32951" label="Patient_32951">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-11-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_41098" label="Patient_41098">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2021-01-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_42375" label="Patient_42375">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-01-14 00:00:00" />
+          <attvalue for="1" value="34.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_43413" label="Patient_43413">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2021-01-19 00:00:00" />
+          <attvalue for="1" value="34.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_43970" label="Patient_43970">
+        <attvalues>
+          <attvalue for="0" value="0.157204224" />
+          <attvalue for="2" value="2021-01-20 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_43663" label="Patient_43663">
+        <attvalues>
+          <attvalue for="0" value="0.157204224" />
+          <attvalue for="2" value="2021-01-21 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_2354" label="HCW_2354">
+        <attvalues>
+          <attvalue for="0" value="0.157204224" />
+          <attvalue for="2" value="2021-01-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_614" label="HCW_614">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-01-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58046" label="Patient_58046">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2021-04-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6415" label="HCW_6415">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_61911" label="Patient_61911">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2021-05-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1139" label="HCW_1139">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80135" label="Patient_80135">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2021-09-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_622" label="HCW_622">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-09-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_5476" label="Patient_5476" />
+      <node id="Patient_12776" label="Patient_12776">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="2020-06-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7183" label="Patient_7183">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-06-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35149" label="Patient_35149" />
+      <node id="Patient_41797" label="Patient_41797" />
+      <node id="Patient_61248" label="Patient_61248" />
+      <node id="Patient_67471" label="Patient_67471" />
+      <node id="Patient_72998" label="Patient_72998">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="2021-07-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2645" label="HCW_2645">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_80795" label="Patient_80795" />
+      <node id="Patient_86422" label="Patient_86422">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="2021-10-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_78522" label="Patient_78522">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5922" label="HCW_5922">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_14685" label="Patient_14685">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2020-07-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2667" label="HCW_2667">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7716" label="HCW_7716">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26096" label="Patient_26096">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2020-09-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6955" label="HCW_6955">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3615" label="HCW_3615">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35790" label="Patient_35790">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2020-11-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_29106" label="Patient_29106">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-28 00:00:00" />
+          <attvalue for="1" value="28.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_36650" label="Patient_36650">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35389" label="Patient_35389">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35670" label="Patient_35670">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5538" label="HCW_5538">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_60088" label="Patient_60088">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2021-04-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7299" label="HCW_7299">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58608" label="Patient_58608" />
+      <node id="Patient_69677" label="Patient_69677">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2021-07-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_69627" label="Patient_69627">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6881" label="HCW_6881">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_72670" label="Patient_72670" />
+      <node id="Patient_77233" label="Patient_77233">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2021-08-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2843" label="HCW_2843">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5863" label="HCW_5863">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_83571" label="Patient_83571" />
+      <node id="Patient_4461" label="Patient_4461" />
+      <node id="Patient_23269" label="Patient_23269">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2020-08-31 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_24091" label="Patient_24091">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3559" label="HCW_3559">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-04 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7750" label="HCW_7750">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-09 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30273" label="Patient_30273" />
+      <node id="Patient_36231" label="Patient_36231" />
+      <node id="Patient_55963" label="Patient_55963">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2021-04-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_55003" label="Patient_55003">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-04-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_55129" label="Patient_55129">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_26" label="HCW_26">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7248" label="HCW_7248">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4003" label="HCW_4003">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7994" label="HCW_7994">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-04-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_58653" label="Patient_58653" />
+      <node id="Patient_65915" label="Patient_65915">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2021-06-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_65709" label="Patient_65709">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_486" label="HCW_486">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6688" label="HCW_6688">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-06-10 00:00:00" />
+          <attvalue for="1" value="37.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_66586" label="Patient_66586">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-16 00:00:00" />
+          <attvalue for="1" value="37.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_65144" label="Patient_65144">
+        <attvalues>
+          <attvalue for="0" value="0.24601599999999998" />
+          <attvalue for="2" value="2021-06-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_66747" label="Patient_66747">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_67394" label="Patient_67394">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2961" label="HCW_2961">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-06-18 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_74962" label="Patient_74962">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2021-08-07 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7549" label="HCW_7549">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-10 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4653" label="HCW_4653">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-13 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5833" label="HCW_5833">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_79825" label="Patient_79825" />
+      <node id="Patient_85419" label="Patient_85419">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2021-10-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2808" label="HCW_2808">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-16 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_250" label="HCW_250">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1177" label="HCW_1177">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6639" label="HCW_6639">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6892" label="HCW_6892">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7692" label="HCW_7692">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_8702" label="Patient_8702">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2020-05-12 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7692" label="Patient_7692">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7971" label="Patient_7971">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6970" label="HCW_6970">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3661" label="HCW_3661">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-05-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30645" label="Patient_30645">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2020-10-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_30861" label="Patient_30861">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-10-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_39314" label="Patient_39314">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2020-12-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_38099" label="Patient_38099">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_38501" label="Patient_38501">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-12-20 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_71203" label="Patient_71203" />
+      <node id="Patient_77366" label="Patient_77366">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2021-08-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_76929" label="Patient_76929">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7429" label="HCW_7429">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-08-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_2966" label="Patient_2966">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2020-03-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6176" label="HCW_6176">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-03-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_15989" label="Patient_15989" />
+      <node id="Patient_19549" label="Patient_19549">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2020-08-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_17977" label="Patient_17977">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-08-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_23751" label="Patient_23751">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2020-09-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7048" label="HCW_7048">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-05 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_924" label="HCW_924">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-09-06 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_26362" label="Patient_26362" />
+      <node id="Patient_35875" label="Patient_35875">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2020-11-26 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_35854" label="Patient_35854">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-26 00:00:00" />
+          <attvalue for="1" value="39.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_33684" label="Patient_33684">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-11-29 00:00:00" />
+          <attvalue for="1" value="39.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_3551" label="HCW_3551">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7827" label="HCW_7827">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2020-12-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4028" label="HCW_4028">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-11-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3515" label="HCW_3515">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-01 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_54765" label="Patient_54765">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="-1.0" />
+          <attvalue for="2" value="2021-03-25 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_50398" label="Patient_50398">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-03-28 00:00:00" />
+          <attvalue for="1" value="39.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_7039" label="HCW_7039">
+        <attvalues>
+          <attvalue for="0" value="0.496" />
+          <attvalue for="2" value="2021-03-30 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_54297" label="Patient_54297">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-03-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_69652" label="Patient_69652" />
+      <node id="Patient_72924" label="Patient_72924" />
+      <node id="Patient_76379" label="Patient_76379" />
+      <node id="Patient_83391" label="Patient_83391">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2021-10-02 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3159" label="HCW_3159">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7421" label="HCW_7421">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-03 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_86323" label="Patient_86323">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2021-10-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6227" label="HCW_6227">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-10-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_7674" label="Patient_7674" />
+      <node id="Patient_22380" label="Patient_22380" />
+      <node id="Patient_40269" label="Patient_40269" />
+      <node id="Patient_73975" label="Patient_73975" />
+      <node id="Patient_81728" label="Patient_81728" />
+      <node id="Patient_5563" label="Patient_5563" />
+      <node id="Patient_15529" label="Patient_15529">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2020-07-08 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_4592" label="HCW_4592">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-07-11 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_17942" label="Patient_17942" />
+      <node id="Patient_38751" label="Patient_38751">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2020-12-14 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_36543" label="Patient_36543">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2020-12-15 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_37416" label="Patient_37416">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-18 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="Patient_38142" label="Patient_38142">
+        <attvalues>
+          <attvalue for="0" value="0.157204224" />
+          <attvalue for="2" value="2020-12-20 00:00:00" />
+          <attvalue for="1" value="41.0" />
+        </attvalues>
+      </node>
+      <node id="HCW_6372" label="HCW_6372">
+        <attvalues>
+          <attvalue for="0" value="0.157204224" />
+          <attvalue for="2" value="2020-12-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_38165" label="Patient_38165">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_1436" label="HCW_1436">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2643" label="HCW_2643">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7080" label="HCW_7080">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-22 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5503" label="HCW_5503">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-19 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_3795" label="HCW_3795">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-24 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_5893" label="HCW_5893">
+        <attvalues>
+          <attvalue for="0" value="0.316944" />
+          <attvalue for="2" value="2020-12-23 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_2313" label="HCW_2313">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2020-12-15 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_62825" label="Patient_62825">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2021-05-17 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_6803" label="HCW_6803">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-05-21 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73511" label="Patient_73511">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2021-07-28 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_73316" label="Patient_73316">
+        <attvalues>
+          <attvalue for="0" value="0.639" />
+          <attvalue for="2" value="2021-07-29 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="HCW_7484" label="HCW_7484">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="2" value="2021-07-31 00:00:00" />
+        </attvalues>
+      </node>
+      <node id="Patient_83366" label="Patient_83366" />
+      <node id="Patient_87073" label="Patient_87073" />
+    </nodes>
+    <edges>
+      <edge source="Patient_23478" target="Patient_22122" id="0" />
+      <edge source="Patient_39356" target="Patient_36128" id="1" />
+      <edge source="Patient_58779" target="HCW_3264" id="2" />
+      <edge source="HCW_3264" target="HCW_2621" id="3" />
+      <edge source="Patient_61796" target="Patient_50538" id="4" />
+      <edge source="Patient_61796" target="Patient_56738" id="5" />
+      <edge source="Patient_61796" target="Patient_57121" id="6" />
+      <edge source="Patient_56738" target="Patient_56954" id="7" />
+      <edge source="Patient_65264" target="Patient_65473" id="8" />
+      <edge source="Patient_65264" target="HCW_3601" id="9" />
+      <edge source="Patient_70503" target="Patient_70334" id="10" />
+      <edge source="Patient_76810" target="Patient_77021" id="11" />
+      <edge source="Patient_76810" target="HCW_1422" id="12" />
+      <edge source="HCW_1422" target="HCW_382" id="13" />
+      <edge source="Patient_4630" target="HCW_149" id="14" />
+      <edge source="Patient_68722" target="HCW_7424" id="15" />
+      <edge source="Patient_26562" target="HCW_7795" id="16" />
+      <edge source="Patient_41716" target="Patient_41666" id="17" />
+      <edge source="Patient_41716" target="HCW_5971" id="18" />
+      <edge source="HCW_5971" target="HCW_1078" id="19" />
+      <edge source="HCW_5971" target="HCW_4071" id="20" />
+      <edge source="HCW_4071" target="HCW_4417" id="21" />
+      <edge source="HCW_4417" target="Patient_34054" id="22" />
+      <edge source="HCW_4417" target="Patient_43266" id="23" />
+      <edge source="HCW_4417" target="HCW_3391" id="24" />
+      <edge source="Patient_34054" target="Patient_40872" id="25" />
+      <edge source="Patient_34054" target="Patient_44282" id="26" />
+      <edge source="Patient_34054" target="HCW_2463" id="27" />
+      <edge source="Patient_40872" target="HCW_2939" id="28" />
+      <edge source="Patient_44282" target="Patient_45408" id="29" />
+      <edge source="Patient_44282" target="HCW_5279" id="30" />
+      <edge source="Patient_62354" target="Patient_61405" id="31" />
+      <edge source="Patient_62354" target="HCW_2933" id="32" />
+      <edge source="Patient_62354" target="HCW_3074" id="33" />
+      <edge source="Patient_61405" target="Patient_62754" id="34" />
+      <edge source="Patient_81669" target="HCW_4871" id="35" />
+      <edge source="Patient_81669" target="HCW_7953" id="36" />
+      <edge source="HCW_7953" target="HCW_4724" id="37" />
+      <edge source="Patient_17314" target="Patient_15515" id="38" />
+      <edge source="Patient_17314" target="Patient_16307" id="39" />
+      <edge source="Patient_16307" target="Patient_15963" id="40" />
+      <edge source="Patient_15963" target="HCW_522" id="41" />
+      <edge source="Patient_26544" target="Patient_25367" id="42" />
+      <edge source="Patient_26544" target="Patient_26775" id="43" />
+      <edge source="Patient_26544" target="HCW_5986" id="44" />
+      <edge source="Patient_25367" target="HCW_7218" id="45" />
+      <edge source="Patient_26775" target="Patient_27217" id="46" />
+      <edge source="Patient_26775" target="HCW_2555" id="47" />
+      <edge source="Patient_72497" target="Patient_72149" id="48" />
+      <edge source="Patient_72497" target="HCW_1648" id="49" />
+      <edge source="Patient_72149" target="Patient_67060" id="50" />
+      <edge source="Patient_38727" target="Patient_30604" id="51" />
+      <edge source="Patient_38727" target="Patient_35488" id="52" />
+      <edge source="Patient_30604" target="Patient_36213" id="53" />
+      <edge source="Patient_30604" target="HCW_5540" id="54" />
+      <edge source="Patient_36213" target="Patient_38669" id="55" />
+      <edge source="Patient_82201" target="HCW_4008" id="56" />
+      <edge source="Patient_82201" target="HCW_7796" id="57" />
+      <edge source="Patient_11828" target="Patient_11403" id="58" />
+      <edge source="Patient_44875" target="HCW_3225" id="59" />
+      <edge source="HCW_3225" target="Patient_44358" id="60" />
+      <edge source="HCW_3225" target="Patient_44914" id="61" />
+      <edge source="HCW_3225" target="HCW_4712" id="62" />
+      <edge source="Patient_75476" target="Patient_74159" id="63" />
+      <edge source="Patient_87068" target="Patient_85659" id="64" />
+      <edge source="Patient_10653" target="Patient_10533" id="65" />
+      <edge source="Patient_10653" target="Patient_10861" id="66" />
+      <edge source="Patient_10653" target="HCW_5907" id="67" />
+      <edge source="Patient_10653" target="HCW_7537" id="68" />
+      <edge source="Patient_15402" target="Patient_14711" id="69" />
+      <edge source="Patient_15402" target="HCW_5662" id="70" />
+      <edge source="Patient_15402" target="HCW_6044" id="71" />
+      <edge source="Patient_14711" target="HCW_5341" id="72" />
+      <edge source="HCW_5662" target="HCW_6901" id="73" />
+      <edge source="Patient_19422" target="Patient_19005" id="74" />
+      <edge source="Patient_28887" target="Patient_28699" id="75" />
+      <edge source="Patient_31525" target="Patient_28150" id="76" />
+      <edge source="Patient_31525" target="Patient_31289" id="77" />
+      <edge source="Patient_31525" target="Patient_31493" id="78" />
+      <edge source="Patient_31525" target="HCW_87" id="79" />
+      <edge source="Patient_28150" target="Patient_30967" id="80" />
+      <edge source="Patient_28150" target="HCW_7493" id="81" />
+      <edge source="Patient_55396" target="Patient_48493" id="82" />
+      <edge source="Patient_48493" target="HCW_4313" id="83" />
+      <edge source="Patient_48493" target="HCW_4833" id="84" />
+      <edge source="Patient_66483" target="HCW_5179" id="85" />
+      <edge source="Patient_77143" target="Patient_73973" id="86" />
+      <edge source="Patient_77143" target="Patient_75780" id="87" />
+      <edge source="Patient_77143" target="HCW_1395" id="88" />
+      <edge source="Patient_77143" target="HCW_7357" id="89" />
+      <edge source="Patient_77143" target="HCW_7737" id="90" />
+      <edge source="Patient_74714" target="Patient_65556" id="91" />
+      <edge source="Patient_74714" target="Patient_74680" id="92" />
+      <edge source="Patient_74714" target="HCW_7600" id="93" />
+      <edge source="Patient_74680" target="Patient_69554" id="94" />
+      <edge source="Patient_74680" target="Patient_75096" id="95" />
+      <edge source="Patient_69554" target="HCW_3613" id="96" />
+      <edge source="Patient_69554" target="HCW_892" id="97" />
+      <edge source="HCW_3613" target="Patient_76558" id="98" />
+      <edge source="HCW_3613" target="HCW_1926" id="99" />
+      <edge source="HCW_3613" target="HCW_205" id="100" />
+      <edge source="Patient_5467" target="Patient_4720" id="101" />
+      <edge source="Patient_5467" target="Patient_5044" id="102" />
+      <edge source="Patient_5467" target="Patient_5406" id="103" />
+      <edge source="Patient_5467" target="HCW_6763" id="104" />
+      <edge source="HCW_6763" target="HCW_3167" id="105" />
+      <edge source="HCW_3167" target="HCW_4980" id="106" />
+      <edge source="HCW_3167" target="HCW_7378" id="107" />
+      <edge source="Patient_22889" target="Patient_22020" id="108" />
+      <edge source="Patient_22889" target="Patient_22883" id="109" />
+      <edge source="Patient_22883" target="Patient_22508" id="110" />
+      <edge source="Patient_58852" target="Patient_58873" id="111" />
+      <edge source="Patient_62004" target="Patient_58076" id="112" />
+      <edge source="Patient_62004" target="Patient_61356" id="113" />
+      <edge source="Patient_61356" target="Patient_58578" id="114" />
+      <edge source="Patient_61356" target="HCW_3977" id="115" />
+      <edge source="Patient_61356" target="HCW_6375" id="116" />
+      <edge source="Patient_7289" target="HCW_1175" id="117" />
+      <edge source="HCW_1175" target="HCW_4087" id="118" />
+      <edge source="Patient_33753" target="Patient_33621" id="119" />
+      <edge source="Patient_66273" target="Patient_66299" id="120" />
+      <edge source="Patient_66273" target="HCW_6975" id="121" />
+      <edge source="Patient_71829" target="Patient_71113" id="122" />
+      <edge source="Patient_77280" target="Patient_74759" id="123" />
+      <edge source="Patient_74759" target="Patient_75533" id="124" />
+      <edge source="Patient_74759" target="Patient_76490" id="125" />
+      <edge source="Patient_86515" target="Patient_85520" id="126" />
+      <edge source="Patient_86515" target="HCW_7400" id="127" />
+      <edge source="Patient_85520" target="Patient_84961" id="128" />
+      <edge source="Patient_3757" target="Patient_2288" id="129" />
+      <edge source="Patient_2288" target="HCW_3386" id="130" />
+      <edge source="Patient_2288" target="HCW_5147" id="131" />
+      <edge source="Patient_7815" target="Patient_6294" id="132" />
+      <edge source="Patient_29263" target="Patient_29064" id="133" />
+      <edge source="Patient_33344" target="Patient_29687" id="134" />
+      <edge source="Patient_63820" target="HCW_7001" id="135" />
+      <edge source="Patient_86964" target="Patient_86812" id="136" />
+      <edge source="Patient_86964" target="HCW_2775" id="137" />
+      <edge source="Patient_30489" target="HCW_1930" id="138" />
+      <edge source="Patient_30489" target="HCW_437" id="139" />
+      <edge source="Patient_59286" target="HCW_3182" id="140" />
+      <edge source="Patient_59286" target="HCW_7342" id="141" />
+      <edge source="Patient_70532" target="Patient_62930" id="142" />
+      <edge source="Patient_70532" target="HCW_3448" id="143" />
+      <edge source="Patient_79179" target="HCW_6625" id="144" />
+      <edge source="Patient_4849" target="Patient_152" id="145" />
+      <edge source="Patient_4849" target="HCW_6037" id="146" />
+      <edge source="HCW_6037" target="HCW_6347" id="147" />
+      <edge source="Patient_38929" target="Patient_38536" id="148" />
+      <edge source="Patient_38536" target="Patient_28745" id="149" />
+      <edge source="Patient_38536" target="Patient_32621" id="150" />
+      <edge source="Patient_32621" target="Patient_36778" id="151" />
+      <edge source="Patient_42991" target="Patient_40830" id="152" />
+      <edge source="Patient_42991" target="Patient_42668" id="153" />
+      <edge source="Patient_40830" target="HCW_6271" id="154" />
+      <edge source="Patient_55662" target="HCW_1003" id="155" />
+      <edge source="Patient_55662" target="HCW_260" id="156" />
+      <edge source="Patient_55662" target="HCW_7084" id="157" />
+      <edge source="Patient_55662" target="HCW_759" id="158" />
+      <edge source="Patient_66662" target="HCW_3373" id="159" />
+      <edge source="Patient_68604" target="Patient_62155" id="160" />
+      <edge source="Patient_68604" target="Patient_64837" id="161" />
+      <edge source="Patient_49080" target="HCW_4658" id="162" />
+      <edge source="Patient_62777" target="HCW_1405" id="163" />
+      <edge source="Patient_76809" target="HCW_3930" id="164" />
+      <edge source="Patient_86347" target="Patient_85678" id="165" />
+      <edge source="Patient_86347" target="HCW_4083" id="166" />
+      <edge source="Patient_86347" target="HCW_6490" id="167" />
+      <edge source="Patient_3946" target="Patient_2272" id="168" />
+      <edge source="Patient_8641" target="Patient_8384" id="169" />
+      <edge source="Patient_33941" target="Patient_31544" id="170" />
+      <edge source="Patient_33941" target="Patient_34009" id="171" />
+      <edge source="Patient_33941" target="Patient_34143" id="172" />
+      <edge source="Patient_33941" target="HCW_3460" id="173" />
+      <edge source="Patient_33941" target="HCW_3939" id="174" />
+      <edge source="Patient_31544" target="Patient_31629" id="175" />
+      <edge source="Patient_34009" target="Patient_26055" id="176" />
+      <edge source="Patient_34009" target="Patient_33587" id="177" />
+      <edge source="Patient_34009" target="Patient_34154" id="178" />
+      <edge source="Patient_26055" target="Patient_33736" id="179" />
+      <edge source="HCW_3939" target="HCW_1682" id="180" />
+      <edge source="Patient_85166" target="Patient_84500" id="181" />
+      <edge source="Patient_85166" target="Patient_84790" id="182" />
+      <edge source="Patient_85166" target="HCW_7893" id="183" />
+      <edge source="Patient_78290" target="HCW_7584" id="184" />
+      <edge source="Patient_29899" target="HCW_3249" id="185" />
+      <edge source="Patient_39338" target="HCW_4123" id="186" />
+      <edge source="Patient_66073" target="Patient_66034" id="187" />
+      <edge source="Patient_6238" target="Patient_7038" id="188" />
+      <edge source="Patient_6238" target="HCW_375" id="189" />
+      <edge source="HCW_375" target="HCW_3318" id="190" />
+      <edge source="Patient_14336" target="HCW_778" id="191" />
+      <edge source="HCW_778" target="HCW_3783" id="192" />
+      <edge source="Patient_32723" target="Patient_31014" id="193" />
+      <edge source="Patient_31014" target="Patient_30597" id="194" />
+      <edge source="Patient_31014" target="Patient_32962" id="195" />
+      <edge source="Patient_30597" target="Patient_34276" id="196" />
+      <edge source="Patient_50516" target="HCW_4163" id="197" />
+      <edge source="Patient_54055" target="Patient_53789" id="198" />
+      <edge source="Patient_74864" target="HCW_7384" id="199" />
+      <edge source="Patient_6611" target="HCW_2816" id="200" />
+      <edge source="HCW_2816" target="HCW_5376" id="201" />
+      <edge source="HCW_5376" target="HCW_5017" id="202" />
+      <edge source="HCW_5376" target="HCW_678" id="203" />
+      <edge source="HCW_5376" target="HCW_812" id="204" />
+      <edge source="HCW_5017" target="HCW_4059" id="205" />
+      <edge source="HCW_678" target="HCW_4497" id="206" />
+      <edge source="HCW_4497" target="HCW_3933" id="207" />
+      <edge source="HCW_3933" target="HCW_7778" id="208" />
+      <edge source="Patient_55216" target="HCW_1719" id="209" />
+      <edge source="HCW_1719" target="HCW_3728" id="210" />
+      <edge source="Patient_62027" target="HCW_1124" id="211" />
+      <edge source="Patient_68917" target="Patient_68807" id="212" />
+      <edge source="Patient_68917" target="HCW_4372" id="213" />
+      <edge source="Patient_41949" target="Patient_35986" id="214" />
+      <edge source="Patient_72021" target="HCW_1238" id="215" />
+      <edge source="Patient_5573" target="Patient_4995" id="216" />
+      <edge source="Patient_36949" target="Patient_36920" id="217" />
+      <edge source="Patient_36949" target="HCW_1223" id="218" />
+      <edge source="Patient_46756" target="Patient_45387" id="219" />
+      <edge source="Patient_46756" target="Patient_46066" id="220" />
+      <edge source="Patient_46756" target="HCW_5155" id="221" />
+      <edge source="Patient_61229" target="Patient_61411" id="222" />
+      <edge source="Patient_61229" target="HCW_3019" id="223" />
+      <edge source="Patient_79239" target="HCW_4745" id="224" />
+      <edge source="Patient_86091" target="Patient_84758" id="225" />
+      <edge source="Patient_86091" target="Patient_85157" id="226" />
+      <edge source="Patient_86091" target="Patient_86250" id="227" />
+      <edge source="Patient_25373" target="Patient_24986" id="228" />
+      <edge source="Patient_59005" target="Patient_58886" id="229" />
+      <edge source="Patient_59005" target="HCW_36" id="230" />
+      <edge source="Patient_58886" target="HCW_1207" id="231" />
+      <edge source="Patient_58886" target="HCW_329" id="232" />
+      <edge source="Patient_70241" target="Patient_69766" id="233" />
+      <edge source="Patient_70241" target="HCW_2273" id="234" />
+      <edge source="Patient_70241" target="HCW_3983" id="235" />
+      <edge source="Patient_69766" target="Patient_70569" id="236" />
+      <edge source="Patient_14006" target="HCW_3956" id="237" />
+      <edge source="HCW_3956" target="Patient_12410" id="238" />
+      <edge source="Patient_26651" target="Patient_24795" id="239" />
+      <edge source="Patient_24795" target="HCW_7747" id="240" />
+      <edge source="HCW_7747" target="HCW_841" id="241" />
+      <edge source="Patient_37332" target="HCW_30" id="242" />
+      <edge source="HCW_30" target="HCW_1430" id="243" />
+      <edge source="Patient_74293" target="HCW_3086" id="244" />
+      <edge source="HCW_3086" target="HCW_411" id="245" />
+      <edge source="HCW_411" target="HCW_7547" id="246" />
+      <edge source="Patient_79428" target="Patient_77637" id="247" />
+      <edge source="Patient_77637" target="Patient_79475" id="248" />
+      <edge source="Patient_79475" target="Patient_79712" id="249" />
+      <edge source="Patient_79712" target="HCW_288" id="250" />
+      <edge source="Patient_5099" target="Patient_4785" id="251" />
+      <edge source="Patient_5099" target="Patient_4893" id="252" />
+      <edge source="Patient_41287" target="Patient_40608" id="253" />
+      <edge source="Patient_41287" target="Patient_40754" id="254" />
+      <edge source="Patient_41287" target="HCW_1763" id="255" />
+      <edge source="Patient_73384" target="Patient_72992" id="256" />
+      <edge source="Patient_73384" target="HCW_2997" id="257" />
+      <edge source="Patient_73384" target="HCW_3736" id="258" />
+      <edge source="Patient_73384" target="HCW_5182" id="259" />
+      <edge source="Patient_72992" target="HCW_2731" id="260" />
+      <edge source="Patient_78912" target="Patient_78757" id="261" />
+      <edge source="Patient_78912" target="HCW_3429" id="262" />
+      <edge source="Patient_78912" target="HCW_6785" id="263" />
+      <edge source="Patient_71742" target="HCW_3919" id="264" />
+      <edge source="Patient_71742" target="HCW_5935" id="265" />
+      <edge source="HCW_5935" target="HCW_7157" id="266" />
+      <edge source="HCW_7157" target="HCW_2892" id="267" />
+      <edge source="Patient_81427" target="Patient_74507" id="268" />
+      <edge source="Patient_81427" target="Patient_76638" id="269" />
+      <edge source="Patient_81427" target="HCW_15" id="270" />
+      <edge source="Patient_74507" target="HCW_1628" id="271" />
+      <edge source="Patient_24927" target="Patient_25600" id="272" />
+      <edge source="Patient_24927" target="HCW_5248" id="273" />
+      <edge source="HCW_5248" target="HCW_824" id="274" />
+      <edge source="Patient_32917" target="Patient_33017" id="275" />
+      <edge source="Patient_70846" target="HCW_5967" id="276" />
+      <edge source="Patient_81570" target="HCW_4922" id="277" />
+      <edge source="Patient_84583" target="Patient_79837" id="278" />
+      <edge source="Patient_84583" target="Patient_83689" id="279" />
+      <edge source="Patient_84583" target="Patient_84484" id="280" />
+      <edge source="Patient_84583" target="HCW_6147" id="281" />
+      <edge source="Patient_83689" target="HCW_1204" id="282" />
+      <edge source="Patient_20136" target="HCW_1523" id="283" />
+      <edge source="Patient_35443" target="Patient_32926" id="284" />
+      <edge source="Patient_35443" target="Patient_34437" id="285" />
+      <edge source="Patient_35443" target="Patient_35316" id="286" />
+      <edge source="Patient_39600" target="HCW_839" id="287" />
+      <edge source="Patient_59158" target="HCW_4295" id="288" />
+      <edge source="Patient_62921" target="Patient_57299" id="289" />
+      <edge source="Patient_62921" target="Patient_61647" id="290" />
+      <edge source="Patient_67893" target="Patient_63934" id="291" />
+      <edge source="Patient_67893" target="Patient_67895" id="292" />
+      <edge source="Patient_67895" target="Patient_67180" id="293" />
+      <edge source="Patient_71406" target="Patient_70455" id="294" />
+      <edge source="Patient_25394" target="HCW_7620" id="295" />
+      <edge source="HCW_7620" target="HCW_6954" id="296" />
+      <edge source="Patient_41850" target="HCW_4173" id="297" />
+      <edge source="Patient_56259" target="Patient_49206" id="298" />
+      <edge source="Patient_56259" target="HCW_5513" id="299" />
+      <edge source="HCW_5513" target="HCW_3437" id="300" />
+      <edge source="HCW_5513" target="HCW_7495" id="301" />
+      <edge source="HCW_3437" target="HCW_157" id="302" />
+      <edge source="Patient_4319" target="Patient_3565" id="303" />
+      <edge source="Patient_24368" target="Patient_23541" id="304" />
+      <edge source="Patient_24368" target="Patient_24193" id="305" />
+      <edge source="Patient_24193" target="HCW_5345" id="306" />
+      <edge source="HCW_5345" target="HCW_498" id="307" />
+      <edge source="Patient_31760" target="Patient_30302" id="308" />
+      <edge source="Patient_59006" target="Patient_59118" id="309" />
+      <edge source="Patient_74736" target="Patient_72190" id="310" />
+      <edge source="Patient_79240" target="Patient_66148" id="311" />
+      <edge source="Patient_79240" target="HCW_2835" id="312" />
+      <edge source="Patient_79240" target="HCW_5920" id="313" />
+      <edge source="Patient_6470" target="Patient_1605" id="314" />
+      <edge source="Patient_6470" target="Patient_4661" id="315" />
+      <edge source="Patient_1605" target="Patient_5321" id="316" />
+      <edge source="Patient_1605" target="HCW_7307" id="317" />
+      <edge source="Patient_13389" target="HCW_1669" id="318" />
+      <edge source="HCW_1669" target="HCW_3724" id="319" />
+      <edge source="HCW_1669" target="HCW_4951" id="320" />
+      <edge source="Patient_4809" target="Patient_3908" id="321" />
+      <edge source="Patient_4809" target="Patient_4792" id="322" />
+      <edge source="Patient_4809" target="HCW_1143" id="323" />
+      <edge source="Patient_4792" target="HCW_5942" id="324" />
+      <edge source="Patient_9890" target="Patient_9270" id="325" />
+      <edge source="Patient_9890" target="Patient_9988" id="326" />
+      <edge source="Patient_62892" target="Patient_62752" id="327" />
+      <edge source="Patient_62892" target="HCW_316" id="328" />
+      <edge source="Patient_70723" target="Patient_60063" id="329" />
+      <edge source="Patient_70723" target="Patient_70646" id="330" />
+      <edge source="Patient_70723" target="HCW_3142" id="331" />
+      <edge source="Patient_70723" target="HCW_560" id="332" />
+      <edge source="Patient_70723" target="HCW_7419" id="333" />
+      <edge source="Patient_60063" target="HCW_1438" id="334" />
+      <edge source="HCW_7419" target="HCW_1240" id="335" />
+      <edge source="Patient_24054" target="Patient_14453" id="336" />
+      <edge source="Patient_24054" target="HCW_2848" id="337" />
+      <edge source="Patient_14453" target="HCW_1771" id="338" />
+      <edge source="HCW_1771" target="HCW_84" id="339" />
+      <edge source="HCW_2848" target="HCW_7044" id="340" />
+      <edge source="HCW_2848" target="HCW_835" id="341" />
+      <edge source="Patient_30906" target="HCW_3678" id="342" />
+      <edge source="Patient_30906" target="HCW_7099" id="343" />
+      <edge source="Patient_38006" target="Patient_29249" id="344" />
+      <edge source="Patient_38006" target="HCW_2400" id="345" />
+      <edge source="HCW_2400" target="HCW_4444" id="346" />
+      <edge source="Patient_40579" target="HCW_2046" id="347" />
+      <edge source="Patient_40579" target="HCW_3388" id="348" />
+      <edge source="Patient_65576" target="Patient_60303" id="349" />
+      <edge source="Patient_65576" target="Patient_65503" id="350" />
+      <edge source="Patient_65576" target="HCW_3223" id="351" />
+      <edge source="Patient_75260" target="Patient_70475" id="352" />
+      <edge source="Patient_75260" target="Patient_70955" id="353" />
+      <edge source="Patient_75260" target="Patient_75265" id="354" />
+      <edge source="Patient_75260" target="HCW_1173" id="355" />
+      <edge source="Patient_75260" target="HCW_76" id="356" />
+      <edge source="Patient_75265" target="Patient_75875" id="357" />
+      <edge source="Patient_6471" target="Patient_6457" id="358" />
+      <edge source="Patient_6471" target="Patient_6729" id="359" />
+      <edge source="Patient_15033" target="Patient_14140" id="360" />
+      <edge source="Patient_14140" target="Patient_12330" id="361" />
+      <edge source="Patient_14140" target="HCW_1858" id="362" />
+      <edge source="Patient_31133" target="Patient_29850" id="363" />
+      <edge source="Patient_31133" target="Patient_31131" id="364" />
+      <edge source="Patient_29850" target="Patient_28449" id="365" />
+      <edge source="Patient_29850" target="Patient_31051" id="366" />
+      <edge source="Patient_43756" target="Patient_43561" id="367" />
+      <edge source="Patient_78227" target="Patient_77820" id="368" />
+      <edge source="Patient_3011" target="HCW_4186" id="369" />
+      <edge source="HCW_4186" target="HCW_1268" id="370" />
+      <edge source="HCW_1268" target="HCW_5571" id="371" />
+      <edge source="HCW_5571" target="HCW_2036" id="372" />
+      <edge source="Patient_21216" target="Patient_21418" id="373" />
+      <edge source="Patient_21216" target="HCW_2153" id="374" />
+      <edge source="Patient_26629" target="Patient_24781" id="375" />
+      <edge source="Patient_32622" target="Patient_32739" id="376" />
+      <edge source="Patient_32739" target="HCW_2493" id="377" />
+      <edge source="HCW_2493" target="Patient_24220" id="378" />
+      <edge source="Patient_24220" target="Patient_30921" id="379" />
+      <edge source="Patient_30921" target="Patient_22070" id="380" />
+      <edge source="Patient_30921" target="Patient_32951" id="381" />
+      <edge source="Patient_41098" target="Patient_42375" id="382" />
+      <edge source="Patient_41098" target="HCW_614" id="383" />
+      <edge source="Patient_42375" target="Patient_43413" id="384" />
+      <edge source="Patient_43413" target="Patient_43970" id="385" />
+      <edge source="Patient_43970" target="Patient_43663" id="386" />
+      <edge source="Patient_43663" target="HCW_2354" id="387" />
+      <edge source="Patient_58046" target="HCW_6415" id="388" />
+      <edge source="Patient_61911" target="HCW_1139" id="389" />
+      <edge source="Patient_80135" target="HCW_622" id="390" />
+      <edge source="Patient_12776" target="Patient_7183" id="391" />
+      <edge source="Patient_72998" target="HCW_2645" id="392" />
+      <edge source="Patient_86422" target="Patient_78522" id="393" />
+      <edge source="Patient_86422" target="HCW_5922" id="394" />
+      <edge source="Patient_14685" target="HCW_2667" id="395" />
+      <edge source="Patient_14685" target="HCW_7716" id="396" />
+      <edge source="Patient_26096" target="HCW_6955" id="397" />
+      <edge source="HCW_6955" target="HCW_3615" id="398" />
+      <edge source="Patient_35790" target="Patient_29106" id="399" />
+      <edge source="Patient_35790" target="Patient_35389" id="400" />
+      <edge source="Patient_35790" target="Patient_35670" id="401" />
+      <edge source="Patient_35790" target="HCW_5538" id="402" />
+      <edge source="Patient_29106" target="Patient_36650" id="403" />
+      <edge source="Patient_60088" target="HCW_7299" id="404" />
+      <edge source="Patient_69677" target="Patient_69627" id="405" />
+      <edge source="Patient_69677" target="HCW_6881" id="406" />
+      <edge source="Patient_77233" target="HCW_2843" id="407" />
+      <edge source="Patient_77233" target="HCW_5863" id="408" />
+      <edge source="Patient_23269" target="Patient_24091" id="409" />
+      <edge source="Patient_23269" target="HCW_3559" id="410" />
+      <edge source="HCW_3559" target="HCW_7750" id="411" />
+      <edge source="Patient_55963" target="Patient_55003" id="412" />
+      <edge source="Patient_55963" target="Patient_55129" id="413" />
+      <edge source="Patient_55963" target="HCW_26" id="414" />
+      <edge source="Patient_55963" target="HCW_4003" id="415" />
+      <edge source="Patient_55963" target="HCW_7994" id="416" />
+      <edge source="HCW_26" target="HCW_7248" id="417" />
+      <edge source="Patient_65915" target="Patient_65709" id="418" />
+      <edge source="Patient_65915" target="HCW_486" id="419" />
+      <edge source="Patient_65915" target="HCW_6688" id="420" />
+      <edge source="HCW_6688" target="Patient_66586" id="421" />
+      <edge source="Patient_66586" target="Patient_65144" id="422" />
+      <edge source="Patient_66586" target="Patient_66747" id="423" />
+      <edge source="Patient_66586" target="Patient_67394" id="424" />
+      <edge source="Patient_66586" target="HCW_2961" id="425" />
+      <edge source="Patient_74962" target="HCW_7549" id="426" />
+      <edge source="HCW_7549" target="HCW_4653" id="427" />
+      <edge source="HCW_7549" target="HCW_5833" id="428" />
+      <edge source="Patient_85419" target="HCW_2808" id="429" />
+      <edge source="HCW_2808" target="HCW_250" id="430" />
+      <edge source="HCW_2808" target="HCW_7692" id="431" />
+      <edge source="HCW_250" target="HCW_1177" id="432" />
+      <edge source="HCW_250" target="HCW_6639" id="433" />
+      <edge source="HCW_6639" target="HCW_6892" id="434" />
+      <edge source="Patient_8702" target="Patient_7692" id="435" />
+      <edge source="Patient_8702" target="Patient_7971" id="436" />
+      <edge source="Patient_8702" target="HCW_6970" id="437" />
+      <edge source="HCW_6970" target="HCW_3661" id="438" />
+      <edge source="Patient_30645" target="Patient_30861" id="439" />
+      <edge source="Patient_39314" target="Patient_38099" id="440" />
+      <edge source="Patient_39314" target="Patient_38501" id="441" />
+      <edge source="Patient_77366" target="Patient_76929" id="442" />
+      <edge source="Patient_77366" target="HCW_7429" id="443" />
+      <edge source="Patient_2966" target="HCW_6176" id="444" />
+      <edge source="Patient_19549" target="Patient_17977" id="445" />
+      <edge source="Patient_23751" target="HCW_7048" id="446" />
+      <edge source="Patient_23751" target="HCW_924" id="447" />
+      <edge source="Patient_35875" target="Patient_35854" id="448" />
+      <edge source="Patient_35854" target="Patient_33684" id="449" />
+      <edge source="Patient_35854" target="HCW_4028" id="450" />
+      <edge source="Patient_33684" target="HCW_3551" id="451" />
+      <edge source="Patient_33684" target="HCW_7827" id="452" />
+      <edge source="HCW_4028" target="HCW_3515" id="453" />
+      <edge source="Patient_54765" target="Patient_50398" id="454" />
+      <edge source="Patient_54765" target="Patient_54297" id="455" />
+      <edge source="Patient_50398" target="HCW_7039" id="456" />
+      <edge source="Patient_83391" target="HCW_3159" id="457" />
+      <edge source="Patient_83391" target="HCW_7421" id="458" />
+      <edge source="Patient_86323" target="HCW_6227" id="459" />
+      <edge source="Patient_15529" target="HCW_4592" id="460" />
+      <edge source="Patient_38751" target="Patient_36543" id="461" />
+      <edge source="Patient_38751" target="HCW_2313" id="462" />
+      <edge source="Patient_36543" target="Patient_37416" id="463" />
+      <edge source="Patient_37416" target="Patient_38142" id="464" />
+      <edge source="Patient_37416" target="Patient_38165" id="465" />
+      <edge source="Patient_37416" target="HCW_1436" id="466" />
+      <edge source="Patient_37416" target="HCW_2643" id="467" />
+      <edge source="Patient_37416" target="HCW_5503" id="468" />
+      <edge source="Patient_38142" target="HCW_6372" id="469" />
+      <edge source="HCW_2643" target="HCW_7080" id="470" />
+      <edge source="HCW_5503" target="HCW_3795" id="471" />
+      <edge source="HCW_5503" target="HCW_5893" id="472" />
+      <edge source="Patient_62825" target="HCW_6803" id="473" />
+      <edge source="Patient_73511" target="Patient_73316" id="474" />
+      <edge source="Patient_73511" target="HCW_7484" id="475" />
+    </edges>
+  </graph>
+</gexf>
