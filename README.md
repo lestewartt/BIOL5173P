@@ -97,3 +97,6 @@ Files can be accesed from the 'Processing_UDCA_Model' folder
 <!-- start:code block -->
 main_directory = 'C:/Users/2915700s/OneDrive/UoG Masters/Project_Start/hospital_infection_sim'
 <!-- end:code block -->
+
+# Program Executables Manual 
+Describes the output of each script and how to further process results for analysis 
