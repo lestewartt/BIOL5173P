@@ -1,7 +1,7 @@
 # BIOL5173P
 Master's Thesis Project; GUID: 2915700s
 
-##### Modelling the Potential Effect of Drug Treatment SARS-CoV-2 Transmission #####
+##### Modelling the Potential Effect of Drug Treatment on SARS-CoV-2 Transmission #####
 
 ##### GUID: 2915700s 
 ##### Supervisor: Dr. Chris Illingworth 
