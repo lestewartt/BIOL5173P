@@ -12,10 +12,11 @@ Master's Thesis Project; GUID: 2915700s
 
 ## Installation 
 
-First, clone this repository: 
+First, clone this repository:
 <!-- start:code block -->
 git clone https://github.com/lestewartt/BIOL5173P.git
 <!-- end:code block -->
+Or download as a zip file
 
 ## Once installed, the script should be run in the following order: 
 
