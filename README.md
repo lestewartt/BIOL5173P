@@ -71,9 +71,7 @@ Exceptions include cases in which ACE2_expression_params and virus_exposure_para
 
 <img width="580" alt="Screenshot 2024-08-18 at 7 38 46 PM" src="https://github.com/user-attachments/assets/35e00730-e4ac-4e3e-a1ed-2100be19b8c7">
 
-
-
-
+Flowchart created using Whimsical: https://whimsical.com/flowcharts
 
 
 # File #3 -- PYTHON SCRIPT 'Hospital_UDCA_Simulation.py' 
@@ -92,6 +90,11 @@ File path to healthcare worker simulation data folder
 <!-- start:code block -->
 hcw_folder = 'C:/Users/2915700s/OneDrive/UoG Masters/Project_Start/hcw_sim_data'
 <!-- end:code block -->
+
+<img width="460" alt="Screenshot 2024-08-18 at 7 41 16 PM" src="https://github.com/user-attachments/assets/a8e8b36a-32b0-4f5c-a745-4938068da145">
+
+Flowchart created using Whimsical: https://whimsical.com/flowcharts
+
 
 # File #4 -- PYTHON SCRIPT 'Processing_Sim_Results.py' 
 
