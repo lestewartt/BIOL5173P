@@ -69,7 +69,8 @@ This script can be run without direct user input
 Exceptions include cases in which ACE2_expression_params and virus_exposure_params are to be updated with new parameter values 
 
 
-<img width="580" alt="Screenshot 2024-08-18 at 7 38 46 PM" src="https://github.com/user-attachments/assets/35e00730-e4ac-4e3e-a1ed-2100be19b8c7">
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/980bd82a-80d0-4dc2-bdd7-207f4474ba37">
+
 
 Flowchart created using Whimsical: https://whimsical.com/flowcharts
 
