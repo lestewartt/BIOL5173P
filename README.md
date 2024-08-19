@@ -91,7 +91,8 @@ File path to healthcare worker simulation data folder
 hcw_folder = 'C:/Users/2915700s/OneDrive/UoG Masters/Project_Start/hcw_sim_data'
 <!-- end:code block -->
 
-<img width="460" alt="Screenshot 2024-08-18 at 7 41 16 PM" src="https://github.com/user-attachments/assets/a8e8b36a-32b0-4f5c-a745-4938068da145">
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/12424463-30a3-4858-a01e-50c7268c1334">
+
 
 Flowchart created using Whimsical: https://whimsical.com/flowcharts
 
